@@ -1,0 +1,70 @@
+.video-background{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.caption{
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.form-rounded {
+border-radius: 1rem;
+}
+
+.gfont
+{
+  font-family: 'Fredoka One', cursive;
+}
+
+
+.form-control:focus{border-color: black;  box-shadow: none; -webkit-box-shadow: none;}
+.has-error .form-control:focus{box-shadow: none; -webkit-box-shadow: none;}
+
+.tagln
+{
+font-family: 'Pacifico', cursive;
+}
+
+
+@media (orientation: landscape) {
+  .caption {
+    top: 7%;
+  }
+}
+
+@media (orientation: portrait) {
+  .caption {
+    top: 27%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .caption {
+    top: 25%;
+  }
+}
+
+@media screen and (min-device-width: 900px)
+and (max-device-width: 1024px) {
+  .caption {
+    top: 33%;
+  }
+  }
+
+  @media screen and (min-device-height: 200px)
+  and (max-device-height: 280px) {
+    .caption {
+      top: 0%;
+    }
+
+    .linksmall {
+  font-size: 1px;
+}
+    }
+
+}

@@ -1,0 +1,58 @@
+.video-background{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.caption{
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.form-text
+{
+ color: #fff;
+}
+
+.form-rounded {
+border-radius: 1rem;
+}
+
+.gfont
+{
+  font-family: 'Fredoka One', cursive;
+}
+
+.form-label
+{
+  padding-top: 12px;
+}
+.white{
+   color: #fff;
+}
+
+@media (orientation: landscape) {
+  .caption {
+    top: 10%;
+  }
+  body
+  {
+    background-color: black;
+  }
+}
+
+@media (orientation: portrait) {
+  .caption {
+    top: 20%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .caption {
+    top: 25%;
+  }
+}
